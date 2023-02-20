@@ -1,15 +1,40 @@
+:root {
+  --primary-color: #042c6f;
+  --secondary-color: #83a3bf;
+}
 body {
-  background: radial-gradient(
-    circle at 7.4% 45.1%,
-    rgb(236, 206, 251) 0%,
-    rgb(205, 237, 246) 45.1%,
-    rgb(227, 251, 252) 78.4%,
-    rgb(230, 247, 235) 90%
-  );
+  background-color: var(--primary-color);
+
   text-align: center;
 }
 .container {
-  border: 1px solid gray;
-  background-color: aquamarine;
+  background-image: url("../images/Baloon.jpg");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding-top: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 70%;
+  border: 1px solid var(--primary-color);
+  font-family: "Dancing Script";
+}
+h1 {
+  font-weight: 700;
+  font-size: 68px;
+  color: var(--primary-color);
+  position: relative;
+  top: 10px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+img {
+  width: 50%;
   border-radius: 10px;
+  margin-top: 40px;
 }
