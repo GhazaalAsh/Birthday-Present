@@ -1,8 +1,9 @@
 :root {
   --primary-color: #042c6f;
   --secondary-color: #83a3bf;
+  --tertiary-color: #b92616;
 }
-body {
+.body {
   background-color: var(--primary-color);
 
   text-align: center;
@@ -53,4 +54,36 @@ button:hover {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
+}
+.present-body {
+  background-image: url("../images/hearts.jfif");
+}
+.present-container {
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 50%;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 10px;
+  font-family: "Dancing Script";
+}
+.present-text {
+  font-size: 46px;
+  color: var(--tertiary-color);
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.name {
+  font-size: 60px;
+  color: #ff0505;
+  text-align: center;
+}
+.love {
+  font-size: 46px;
+  color: #ec615c;
+  text-align: center;
 }
